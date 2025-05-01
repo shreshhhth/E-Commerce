@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad&family=Asap:wght@100&family=Kanit:wght@100;400&family=Kdam+Thmor+Pro&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Marhey:wght@300&family=Nunito:wght@200&family=Outfit:wght@100..900&family=Philosopher&family=Prata&family=Rethink+Sans&family=Roboto+Slab&family=Roboto:wght@100&family=Rubik&family=Young+Serif&display=swap');
+
+@import "tailwindcss";
+
+
+
+a.active hr {
+    display: block;
+}
+
+* {
+    font-family: Outfit;
+}
+
+.prata-regular {
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.trans-smooth{
+    transition:all 0.2s ease-in;
+
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+@layer utilities {
+  
+    .no-number-spin::-webkit-inner-spin-button,
+    .no-number-spin::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
+  
+ 
+
+@media (max-width:640px) {
+    a .active {
+        background-color: black;
+        color: white;
+    }
+}
