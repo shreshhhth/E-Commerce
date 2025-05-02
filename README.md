@@ -41,3 +41,14 @@ A complete e-commerce platform built with a modern tech stack featuring user aut
 - Browse products by category, price using filter
 - Add to Cart / Remove from Cart
 - Checkout & Online Payment
+
+### 🛠️ Admin Features
+- Secure Admin Login
+- Admin Dashboard Overview with stats
+- Add New Products with image upload
+- Edit and Delete existing Products
+- Manage Product Categories
+- View All Orders
+- Update Order Status (e.g. Pending → Shipped)
+- Upload & Manage Product Images (via Cloudinary or S3)
+- Responsive admin panel UI
