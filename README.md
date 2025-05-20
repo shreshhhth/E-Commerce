@@ -1,4 +1,4 @@
-# 🛒 Full Stack E-Commerce Project
+# 🛒LOOTED -  Full Stack E-Commerce Project
 
 ## 🔗 Live Links
 
